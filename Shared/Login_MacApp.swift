@@ -13,5 +13,14 @@ struct Login_MacApp: App {
         WindowGroup {
             ContentView()
         }
+//        Hidding the title bar
+        .windowStyle(HiddenTitleBarWindowStyle())
+    }
+}
+//Hidding Textfield Focus Ring...
+extension NSTextField{
+    open override var focusRingType: NSFocusRingType{
+        get{.none}
+        set{}
     }
 }

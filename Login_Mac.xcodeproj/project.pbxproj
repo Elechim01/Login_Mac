@@ -15,6 +15,8 @@
 		C47BEE5D25DDC4AF00E5A69A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BEE3225DDC4AE00E5A69A /* ContentView.swift */; };
 		C47BEE5E25DDC4AF00E5A69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47BEE3325DDC4AF00E5A69A /* Assets.xcassets */; };
 		C47BEE5F25DDC4AF00E5A69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47BEE3325DDC4AF00E5A69A /* Assets.xcassets */; };
+		C47BEE7425DDC5E200E5A69A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BEE7325DDC5E200E5A69A /* Login.swift */; };
+		C47BEE7525DDC5E200E5A69A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BEE7325DDC5E200E5A69A /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		C47BEE5325DDC4AF00E5A69A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47BEE5725DDC4AF00E5A69A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C47BEE5925DDC4AF00E5A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47BEE7325DDC5E200E5A69A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 		C47BEE3025DDC4AE00E5A69A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C47BEE7225DDC5BD00E5A69A /* View */,
 				C47BEE3125DDC4AE00E5A69A /* Login_MacApp.swift */,
 				C47BEE3225DDC4AE00E5A69A /* ContentView.swift */,
 				C47BEE3325DDC4AF00E5A69A /* Assets.xcassets */,
@@ -149,6 +153,14 @@
 				C47BEE5925DDC4AF00E5A69A /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C47BEE7225DDC5BD00E5A69A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C47BEE7325DDC5E200E5A69A /* Login.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47BEE7425DDC5E200E5A69A /* Login.swift in Sources */,
 				C47BEE5C25DDC4AF00E5A69A /* ContentView.swift in Sources */,
 				C47BEE5A25DDC4AF00E5A69A /* Login_MacApp.swift in Sources */,
 			);
@@ -317,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47BEE7525DDC5E200E5A69A /* Login.swift in Sources */,
 				C47BEE5D25DDC4AF00E5A69A /* ContentView.swift in Sources */,
 				C47BEE5B25DDC4AF00E5A69A /* Login_MacApp.swift in Sources */,
 			);
